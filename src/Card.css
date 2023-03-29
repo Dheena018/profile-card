@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+    /* display: flex;
+    justify-content:center ;
+    align-items: center; */
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid#222;
+
+    width: 20rem;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.image-container{
+    width: 100px;
+    /* height: 50px; */
+    border-radius: 10px;
+}
+.img{
+    width: 10rem;
+    height: auto;
+    border-radius: 20px;
+    position: relative;
+    right: 2rem;
+}
+.header{
+    font-size: 1.2rem;
+    color: red;
+}
+.para{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
